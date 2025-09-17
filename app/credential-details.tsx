@@ -183,7 +183,7 @@ export default function CredentialDetailsScreen() {
             </View>
           )}
 
-          {credential.description && (
+          {credential.description && showPassword && (
             <View style={styles.detailRow}>
               <Text style={styles.detailLabel}>Description</Text>
               <View style={styles.detailValueContainer}>
