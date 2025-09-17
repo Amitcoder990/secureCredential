@@ -191,7 +191,7 @@ export default function EditCredentialScreen() {
                 placeholderTextColor="#9CA3AF"
                 secureTextEntry={!isPasswordVisible} // Dynamic visibility
               />
-              <TouchableOpacity
+              {/* <TouchableOpacity
                 onPress={() => setIsPasswordVisible(!isPasswordVisible)}
                 style={styles.eyeIcon}
               >
@@ -200,7 +200,7 @@ export default function EditCredentialScreen() {
                 ) : (
                   <Eye size={22} color="#6B7280" />
                 )}
-              </TouchableOpacity>
+              </TouchableOpacity> */}
             </View>
           </View>
           {/* 👆 New Password Input with Show/Hide Icon End */}
